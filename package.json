@@ -1,4 +1,15 @@
 {
   "name": "vitest-ts-starter",
-  "packageManager": "yarn@3.3.0"
+  "packageManager": "yarn@3.3.0",
+  "scripts": {
+    "test": "vitest",
+    "test:ui": "vitest --ui",
+    "test:run": "vitest run"
+  },
+  "devDependencies": {
+    "@vitest/ui": "latest",
+    "typescript": "^4.9.4",
+    "vite": "latest",
+    "vitest": "latest"
+  }
 }
